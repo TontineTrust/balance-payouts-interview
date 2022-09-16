@@ -29,7 +29,7 @@ Your program should read the following parameters from the command line:
 Example (doesn't need to be exactly the same):
 
 ```
-cabal run interview -- -payout-rate 2 -max-age 1200 \
+cabal run interview -- -payout-rate 2 -max-age 120 \
   -interest-path /foo/interest.csv -in-file /foo/bar.csv -out-dir /foo/out
 ```
 
