@@ -36,14 +36,17 @@ cabal run interview -- -payout-rate 2 -max-age 1200 \
 ### Interest Rate Data
 
 A simple CSV with two columns. The interest rate is given as a percentage
-meaning that 1.2% will be represented as 1.2.
+meaning that 1.2% will be represented as 1.2. Example format:
 
 ```
 date, rate
-01/01/1950, 0.1
-02/01/1950, 0.12
-03/01/1950, 0.1
+1950-01-01, 0.1
+1950-01-02, 0.12
+1950-01-03, 0.1
 ```
+
+You can find the interest rates file here:
+https://github.com/TontineTrust/balance-payouts-interview/blob/main/rates.csv
 
 ### User Data
 
@@ -57,8 +60,8 @@ userID, dob, joinDob, joinContribution, monthlyContribution, retirementDate
 
 Here is a description of each field:
 - userID: unique identifier for each user
-- dob: user's date of birth given in dd/mm/yyyy
-- joinDob: date the user made their first contribution in dd/mm/yyyy
+- dob: user's date of birth given in yyyy-mm-dd
+- joinDob: date the user made their first contribution in yyyy-mm-dd
 - joinContribution: amount of money the user contributed on `joinDob`
 - monthlyContribution: amount of money the user deposited on the 1st of each
   month, but not on the day they joined if they joined on the 1st
