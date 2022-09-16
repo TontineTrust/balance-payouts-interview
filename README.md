@@ -20,11 +20,11 @@ We are looking for:
 ### Command Line Parameters
 
 Your program should read the following parameters from the command line:
-- payout-rate:   percentage of balance to payout (1.2% represented as 1.2)
-- max-age:       last age in years for which to calculate balance & payout
-- interest-path: absolute path to a CSV file containing daily interest rates
-- in-path:       absolute path to a CSV file containing the user data
-- out-dir:      absolute path to a directory of where to write the results to
+- `-payout-rate`:   percentage of balance to payout (1.2% represented as 1.2)
+- `-max-age`:       last age in years for which to calculate balance & payout
+- `-interest-path`: absolute path to a CSV file containing daily interest rates
+- `-in-path`:       absolute path to a CSV file containing the user data
+- `-out-dir`:       absolute path to a directory of where to write the results to
 
 Example (doesn't need to be exactly the same):
 
