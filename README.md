@@ -63,7 +63,7 @@ Here is a description of each field:
 - dob: user's date of birth given in yyyy-mm-dd
 - joinDob: date the user made their first contribution in yyyy-mm-dd
 - joinContribution: amount of money the user contributed on `joinDob`
-- monthlyContribution: amount of money the user deposited on the 1st of each
+- monthlyContribution: amount of money the user deposits on the 1st of each
   month, but not on the day they joined if they joined on the 1st
 - retirementDate: the user will receive a payout on the 25th of each month, on
   or after their retirment date, given in dd/mm/yyy
