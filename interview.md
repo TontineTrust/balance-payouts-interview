@@ -28,8 +28,10 @@ Your program should read the following parameters from the command line:
 
 Example (doesn't need to be exactly the same):
 
-`cabal run interview -- -payout-rate 2 -max-age 1200 \
-  -interest-path /foo/interest.csv -in-file /foo/bar.csv -out-file /foo/out`
+```
+cabal run interview -- -payout-rate 2 -max-age 1200 \
+  -interest-path /foo/interest.csv -in-file /foo/bar.csv -out-file /foo/out
+```
 
 ### Interest Rate Data
 
