@@ -24,13 +24,13 @@ Your program should read the following parameters from the command line:
 - max-age:       final age in months for which to calculate balance & payout
 - interest-path: absolute path to a CSV file containing daily interest rates
 - in-path:       absolute path to a CSV file containing the user data
-- out-path:      absolute path to a directory of where to write the results to
+- out-dir:      absolute path to a directory of where to write the results to
 
 Example (doesn't need to be exactly the same):
 
 ```
 cabal run interview -- -payout-rate 2 -max-age 1200 \
-  -interest-path /foo/interest.csv -in-file /foo/bar.csv -out-file /foo/out
+  -interest-path /foo/interest.csv -in-file /foo/bar.csv -out-dir /foo/out
 ```
 
 ### Interest Rate Data
@@ -47,7 +47,7 @@ date, rate
 
 ### User Data
 
-The CSV file given by `in-file` contains data on each user. This file could
+The CSV file given by `in-path` contains data on each user. This file could
 potentially be massive (millions of users). The format of the CSV file:
 
 ```
@@ -88,7 +88,7 @@ A user's balance cannot be negative.
 
 ### Output Data
 
-The command line parameters give an output directory e.g. /foo/out:
+The command line parameters give an output directory `-out-dir` e.g. /foo/out:
 
 For each user with user ID X the output data should be written to /foo/out/X.csv
 
