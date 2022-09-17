@@ -11,7 +11,7 @@ should write the results to a database.
 We are looking for:
 - clean maintainable code
 - low memory usage
-- makes use of the CPU
+- leverage available cores
 - type-safety
 - leverage Haskell libraries
 
