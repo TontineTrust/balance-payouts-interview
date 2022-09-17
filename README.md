@@ -4,7 +4,7 @@ Your task is to write a program that can calculate a daily account balance and
 monthly payout for each user based on a given formula, until each user has
 reached some maximum age. Input parameters to the problem are given via the
 command line, and some input data is then read from a CSV file. Your program
-should write the results to a database using the Haskell beam-* packages.
+should write the results to a database using the Haskell `beam-*` packages.
 
 ## Assessment
 
