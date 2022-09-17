@@ -4,7 +4,7 @@ Your task is to write a program that can calculate a daily account balance and
 monthly payout for each user based on a given formula, until each user has
 reached some maximum age. Input parameters to the problem are given via the
 command line, and some input data is then read from a CSV file. Your program
-should write the results to files based on the command line options.
+should write the results to a database.
 
 ## Assessment
 
@@ -12,8 +12,8 @@ We are looking for:
 - clean maintainable code
 - low memory usage
 - makes use of the CPU
-- leverage Haskell libraries
 - type-safety
+- ability to use Conduit and Beam
 
 ## Input
 
