@@ -12,8 +12,8 @@ We are looking for:
 - clean maintainable code
 - low memory usage
 - makes use of the CPU
-- leverage Haskell libraries where suitable
-- type-safety where appropriate
+- leverage Haskell libraries
+- type-safety
 
 ## Input
 
