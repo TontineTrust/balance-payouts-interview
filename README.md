@@ -13,7 +13,7 @@ We are looking for:
 - low memory usage
 - makes use of the CPU
 - type-safety
-- ability to use Conduit and Beam
+- usage of Conduit and Beam
 
 ## Input
 
