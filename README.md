@@ -95,7 +95,7 @@ The command line parameters give an output directory `-out-dir` e.g. `/foo/out`:
 
 For each user with user ID X the output data should be written to `/foo/out/X.csv`
 
-For example, user 1234's output file `/foo/out/1234.txt` would start like:
+For example, user 1234's output file `/foo/out/1234.csv` would start like:
 
 ```
 date, balance, payout
