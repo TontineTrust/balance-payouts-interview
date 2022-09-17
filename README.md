@@ -13,7 +13,7 @@ We are looking for:
 - low memory usage
 - makes use of the CPU
 - type-safety
-- usage of Conduit and Beam
+- leverage Haskell libraries
 
 ## Input
 
